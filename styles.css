@@ -1,0 +1,175 @@
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding-top: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    color: aliceblue;
+    background-color: black;
+    border: 10px;
+    height: 13vh;
+    border-color: beige;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar p{
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.navbar nav {
+    margin-top: 2vh;
+    color: aliceblue;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar a{
+    padding: 5px;
+    
+    color:bisque;
+    text-decoration: none;
+      
+}
+
+.navbar a:hover{
+    background-color: burlywood;
+    color: forestgreen;
+}
+
+.intro{
+    height: 100vh;
+    background-image: url(assets/intro_background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about {
+    padding-right: 15vw;
+    padding-left: 15vw;
+    padding-top: 13vh;
+    height: 100vh;
+    text-align: center;
+}
+
+.about_text {
+    width: 50vw;
+    padding-left: 9vw;
+    text-align: justify;
+}
+
+
+.education {
+    padding-right: 15vh;
+    padding-left: 15vh;
+    padding-top: 13vh;
+    height: 100vh;
+    background-color:rgb(219, 244, 236);
+}
+
+
+.education img {
+    width: 10vh;
+    height: 10vh;
+}
+
+.education table {
+    border-collapse:separate; 
+    border-spacing: 0 1em;
+}
+
+
+.education .line {
+    width: .1px;
+    padding-left: 4px;
+    background-color:cornflowerblue;
+}
+
+.education .card {
+    box-shadow: none;
+    width: 50vw;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.skills {
+    padding-right: 15vh;
+    padding-left: 15vh;
+    padding-top: 13vh;
+    height: 100vh;
+    background-color:rgb(219, 244, 236);
+}
+
+.skills .card {
+    width: 5vw;
+    margin-left: 20vw;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+}
+
+.skills .header {
+    height: 5vh;
+    width: 20vw;
+    background-color: rgb(11, 196, 196);
+}
+
+.skills .description {
+    height: 15vh;
+    width: 20vw;
+    background: white;
+}
+
+.skills .row {
+    width: 100vh;
+    margin-top: 10vh;
+    display:inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skills h1 {
+    margin: 0px 0px 0px 0px;
+}
+
+.skills ul {
+    margin: 0px 0px 0px 0px;
+    padding-top: 5px;
+}
+
+.fav-links {
+    padding-right: 15vh;
+    padding-left: 15vh;
+    padding-top: 13vh;
+    height: 100vh;
+    background-color:rgb(219, 244, 236);
+}
+
+footer {
+    background-color: darkcyan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    margin: 0px 0px 0px 0px;
+    padding: 2px 2px 2px 2px;
+}
