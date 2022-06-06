@@ -5,19 +5,20 @@ body {
 
 h2{
     text-align: center;
-    color: white;
+    color: #8D5A97;
     margin: 0px 0px 0px 0px;
     padding-top: 10px;
 }
 
 h1{
     text-align: center;
+    color: #8D5A97;
 }
 
 .navbar {
     position: fixed;
     color: aliceblue;
-    background-color: black;
+    background-color: #B8EBD0;
     border: 10px;
     height: 13vh;
     border-color: beige;
@@ -29,7 +30,7 @@ h1{
     margin: 0px;
     font-size: 12px;
     text-align: center;
-    color: white;
+    color: #8D5A97;
 }
 
 .navbar nav {
@@ -42,14 +43,14 @@ h1{
 .navbar a{
     padding: 5px;
     
-    color:bisque;
+    color:#8D5A97;
     text-decoration: none;
       
 }
 
 .navbar a:hover{
-    background-color: burlywood;
-    color: forestgreen;
+    background-color: #907F9F;
+    color: #B8EBD0;
 }
 
 .intro{
@@ -99,7 +100,7 @@ h1{
 .education .line {
     width: .1px;
     padding-left: 4px;
-    background-color:cornflowerblue;
+    background-color:#A4A5AE;
 }
 
 .education .card {
@@ -113,8 +114,8 @@ h1{
 }
 
 .skills {
-    padding-right: 15vh;
-    padding-left: 15vh;
+    padding-right: 15vw;
+    padding-left: 15vw;
     padding-top: 13vh;
     height: 100vh;
     background-color:rgb(219, 244, 236);
@@ -122,14 +123,13 @@ h1{
 
 .skills .card {
     width: 5vw;
-    margin-left: 20vw;
     box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
 }
 
 .skills .header {
     height: 5vh;
     width: 20vw;
-    background-color: rgb(11, 196, 196);
+    background-color: #B8EBD0;
 }
 
 .skills .description {
@@ -163,8 +163,9 @@ h1{
     background-color:rgb(219, 244, 236);
 }
 
+
 footer {
-    background-color: darkcyan;
+    background-color: #B8EBD0;
     padding-top: 10px;
     padding-bottom: 10px;
 }

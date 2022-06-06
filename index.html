@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="bn-BD">
     <head>
         <title>Portfolio</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css">
+
+        <script>
+            document.getElementById("page_location").innerHTML =
+            "Page location: " + window.location.href;
+    
+            document.getElementById("last_modified").innerHTML = "Last updated: " + document.lastModified;
+        </script>
     </head>
 
     <body>
@@ -204,11 +211,46 @@
             
         </section>
 
-        <section id = "favoruites" class="favourites">
-            <h1>Favourite links</h1>
+        <section id = "favourites" class="favourites">
+            <h1>Favourites</h1>
             <div>
                 <table>
+                    <tr>
+                        <th>Item</th>
+                        <th>List</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Movie</td>
+                        <td>1) Fight club</td>
+                    </tr>
+                    <tr>
+                        <td>2) Terminator</td>
+                    </tr>
+                    <tr>
+                        <td>3) The green mile</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Tv series</td>
+                        <td>1) Game of thrones</td>
+                    </tr>
+                    <tr>
+                        <td>2) Silicon valley</td>
+                    </tr>
+                    <tr>
+                        <td>3) Vikings</td>
+                    </tr>
+                    <tr>
+                       <td>4) The x-files</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Link</td>
+                        <td>1) <a href="http://youtube.com"> Youtube</a></td>
+                    </tr>
+                    <tr>
+                        <td>2) <a href="http://codeforces.com"> Codeforces</a></td>
+                    </tr>
                 </table>
+                
             </div>
             
            
@@ -224,10 +266,5 @@
              <p id="last_modified">Last updated: </p>
         </footer>
     </body>
-    <script>
-        document.getElementById("page_location").innerHTML =
-        "Page location: " + window.location.href;
-
-        document.getElementById("last_modified").innerHTML = "Last updated: " + document.lastModified;
-    </script>
+    
 </html>
