@@ -6,11 +6,17 @@
         <link rel="stylesheet" href="styles.css">
 
         <script>
-            document.getElementById("page_location").innerHTML =
-            "Page location: " + window.location.href;
-    
-            document.getElementById("last_modified").innerHTML = "Last updated: " + document.lastModified;
+
+            document.addEventListener("DOMContentLoaded", function() {
+                document.getElementById("page_location").innerHTML ="Page location: " + window.location.href;
+        
+                document.getElementById("last_modified").innerHTML = "Last updated: " + document.lastModified;
+            });
+            
         </script>
+
+        
+
     </head>
 
     <body>
@@ -24,10 +30,16 @@
                 <a href="#favourites">Favourites</a>
             </nav>
         </div>
-        <div class="intro">
-            
-            
-        </div>
+        <section class="intro">
+            <div style="padding-top: 15vh;">
+                <img src="assets/user_img.jpg" alt="user image" class="rounded-circle">
+            </div>
+            <pre class="intro-text">
+                Greetings, My name is Mohammad Yasin Arefin. I am from Bangladesh. I am
+                currently a student at BRAC university persuing CSE degree. I am a programming
+                enthusiast and software developer.
+            </pre>
+        </section>
 
         <section id = "about" class="about">
             <h1>About</h1>
@@ -213,41 +225,44 @@
 
         <section id = "favourites" class="favourites">
             <h1>Favourites</h1>
-            <div>
+            <div class="favs">
                 <table>
-                    <tr>
+                    <tr class="favs">
                         <th>Item</th>
                         <th>List</th>
                     </tr>
-                    <tr>
-                        <td rowspan="3">Movie</td>
+                    <tr class="favs">
+                        <td class="fav_listitem" rowspan="3">Movie</td>
                         <td>1) Fight club</td>
                     </tr>
-                    <tr>
+                    <tr class="favs">
                         <td>2) Terminator</td>
                     </tr>
-                    <tr>
+                    <tr class="favs">
                         <td>3) The green mile</td>
                     </tr>
-                    <tr>
+                    <tr class="favs">
                         <td rowspan="4">Tv series</td>
                         <td>1) Game of thrones</td>
                     </tr>
-                    <tr>
+                    <tr class="favs">
                         <td>2) Silicon valley</td>
                     </tr>
-                    <tr>
+                    <tr class="favs">
                         <td>3) Vikings</td>
                     </tr>
-                    <tr>
+                    <tr class="favs">
                        <td>4) The x-files</td>
                     </tr>
-                    <tr>
-                        <td rowspan="2">Link</td>
+                    <tr class="favs">
+                        <td rowspan="3">Link</td>
                         <td>1) <a href="http://youtube.com"> Youtube</a></td>
                     </tr>
-                    <tr>
+                    <tr class="favs">
                         <td>2) <a href="http://codeforces.com"> Codeforces</a></td>
+                    </tr>
+                    <tr class="favs">
+                        <td>3) <a href="https://piazza.com/class/l3q59z417auaz"> CSE391 piazza page</a></td>
                     </tr>
                 </table>
                 

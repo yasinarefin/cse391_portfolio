@@ -15,6 +15,7 @@ h1{
     color: #8D5A97;
 }
 
+
 .navbar {
     position: fixed;
     color: aliceblue;
@@ -25,6 +26,7 @@ h1{
     width: 100%;
     align-items: center;
 }
+
 
 .navbar p{
     margin: 0px;
@@ -53,13 +55,23 @@ h1{
     color: #B8EBD0;
 }
 
+.rounded-circle {
+    border: 5px solid;
+    border-color: #A4A5AE;
+    border-radius: 50%;
+    margin-left: 40vw;
+    margin-top: 10vh;
+    width: 17vw;
+}
 .intro{
     height: 100vh;
-    background-image: url(assets/intro_background.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #907F9F;
+
+}
+
+.intro-text {
+    color: #B8EBD0;
+    font-size: 25px;
 }
 
 .about {
@@ -160,11 +172,27 @@ h1{
     padding-right: 15vh;
     padding-left: 15vh;
     padding-top: 13vh;
+    justify-content: center;
     height: 100vh;
     background-color:rgb(219, 244, 236);
 }
 
+.favs > table {
+    border: 5px solid white;
+    border-collapse: collapse;
+}
 
+.favs > th {
+    border: 5px solid white;
+    padding: 15px;
+    border-collapse: collapse;
+}
+
+.favs > td {
+    border: 5px solid white;
+    padding: 10px;
+    border-collapse: collapse;
+}
 footer {
     background-color: #B8EBD0;
     padding-top: 10px;
